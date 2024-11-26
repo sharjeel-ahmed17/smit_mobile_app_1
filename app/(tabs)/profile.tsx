@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
 
-export default function Dashboard() {
+export default function Profile() {
   return (
     <View
       style={{
@@ -9,7 +9,7 @@ export default function Dashboard() {
         alignItems: "center",
       }}
     >
-      <Text>Dashboard</Text>
+      <Text>Profile</Text>
     </View>
   );
 }
